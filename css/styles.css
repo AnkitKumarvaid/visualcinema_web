@@ -1,0 +1,41 @@
+/*gallery pic*/
+#gp1 {
+    height: 15%;
+    width:  30%;
+}
+
+#gp2 {
+    height: 15%;
+    width:  30%;
+}
+
+#gp3 {
+    height: 15%;
+    width:  30%;
+}
+
+
+
+/*footer */
+
+#footer h2{
+    font-style: italic;
+    text-align: center;
+    color: rgb(232, 235, 226);
+    stroke: black;
+    
+}
+
+#footer {
+    background-color: rgb(3, 3, 34);
+
+}
+
+.form {
+    padding-right: 20px;
+    text-align: right;
+}
+
+.colum-length{
+    width: 30%;
+}
