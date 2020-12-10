@@ -3,12 +3,29 @@
     <head>
         <meta charset="utf-8">
         <title>TVC</title>
-        <link rel="stylesheet" href="css/styles.css"
+        <link rel="shortcut icon" type="image/png" href="images/fevicon.png"/>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-       <h1>TVC HOME PAGE</h1>
-       <img src="images/main pic.jpg" alt="film making" width="100%" >
-        <!--brand partners-->
+
+    <body class="whole-body">
+
+
+
+       <!--nav bar-->
+       <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+
+
+        <!--opening image -->
+       <img src="images/top-image2.jpg" alt="film making" width="100%"  height="300%">
+
+
+
+        <!--brand partners logo-->
        <hr>
        <div class="slidePanel">
        <img src="images/logo-1.png" alt="partner-1">
@@ -17,10 +34,12 @@
        <img src="images/logo-4.png" alt="partner-4">
        </div>
        <hr>
+
+
        <!--table for paragraph and pic-->
-       <table cellspacing="40">
+       <table>
            <tr>
-               <td>
+               <td class="table-description-text">
                 Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lore m Ipsum has been the industry's 
                 standard dummy text ever since the 1500s, when an unknown 
@@ -42,7 +61,7 @@
                <td>
                 <img src="images/film-1.jpg" alt="film making" width="100%" height="200%">  
                </td>
-               <td>
+               <td class="table-description-text">
                 Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's 
                 standard dummy text ever since the 1500s, when an unknown 
@@ -59,7 +78,7 @@
        </table>
 
 
-       <!-- gallery section -->
+       <!--our work gallery section -->
        
        <hr>
        <h3>GALLERY</h3>
@@ -70,20 +89,34 @@
 
        <!--footer-->
         <div id="footer">
+            <div id="footer-heading">
+                <h2>footer</h2>
+            </div>
            
-
-            <h2>footer</h2>
-                <div class="form">
-                   <form class="" action="mailto:ankitdav420@gmail.com  " method="post" enctype="text/plain">
-                   <input class="colum-length" type="text" name="your name" value="" placeholder="NAME">
-                   <br><br>
-                   <input class="colum-length" type="number" name="your mob-no" value="" placeholder="MOB-NO">
-                   <br><br>
-                   <textarea class="colum-length" name="your message"  placeholder="MESSAGE"></textarea>
-                   <br><br>
-                   <input   type="submit" name="">
-                   </form>
-                </div>
+            <div class="bottom-links">
+                <ul> <h6>HELP</h6></ul>
+                <ul><a href="" color="white">FAQ</a></ul>
+                <ul><a href="" color="white">location</a></ul>
+                <ul><a href="" color="white">join us</a></ul>
+            </div>
+            <div class="form">
+                <form class="" action="mailto:ankitdav420@gmail.com  " method="post" enctype="text/plain">
+                <input class="colum-length" type="text" name="your name" value="" placeholder="NAME">
+                <br><br>
+                <input class="colum-length" type="number" name="your mob-no" value="" placeholder="MOB-NO">
+                <br><br>
+                <textarea class="colum-length" name="your message"  placeholder="MESSAGE"></textarea>
+                <br><br>
+                <input   type="submit" name="">
+                </form>
+            </div>
+            </table>
+                <div class="footer-copyright">
+                <br>
+                © The Visual Cinema
+            </div>
+                
+                
         </div>
         
     </body>

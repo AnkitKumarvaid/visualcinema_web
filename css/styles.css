@@ -1,4 +1,48 @@
-/*gallery pic*/
+/*---------whole body section-----------*/
+.whole-body{
+    margin: 0;
+}
+
+/*-------------nav bar------------------*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(17, 15, 15);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(115, 241, 235);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #6c7573;
+    color: white;
+  }
+
+
+
+/*-----------table of pics and descriptive text--------*/
+
+.table-description-text{
+    padding: 10%;
+}
+
+
+
+/*-----------our work gallery pic section---------------*/
 #gp1 {
     height: 15%;
     width:  30%;
@@ -16,20 +60,18 @@
 
 
 
-/*footer */
+/*--------------footer section---------------------- */
 
-#footer h2{
-    font-style: italic;
+#footer-heading{
     text-align: center;
     color: rgb(232, 235, 226);
-    stroke: black;
     
 }
 
 #footer {
     background-color: rgb(3, 3, 34);
-
 }
+
 
 .form {
     padding-right: 20px;
@@ -38,4 +80,18 @@
 
 .colum-length{
     width: 30%;
+}
+
+.footer-copyright{
+    color: aliceblue;
+    text-align: center;
+}
+
+.bottom-links {
+    text-align: left;
+    color: #f2f2f2;
+    padding-left: 20px;
+    font-size: 40px;
+    font-style: normal;
+
 }
